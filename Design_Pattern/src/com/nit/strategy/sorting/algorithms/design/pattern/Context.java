@@ -9,5 +9,10 @@ public class Context {
 	
 	public void arrange(int[] input) {
 		strategy.sort(input);
+		System.out.println("Sorted array: ");
+		for(int num : input) {
+			System.out.print(num + " ");
+		}
+		System.out.println();
 	}
 }
